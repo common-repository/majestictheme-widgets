@@ -1,0 +1,332 @@
+.mt-center {
+    text-align: center;
+}
+.mt-uppercase {
+    text-transform: uppercase;
+}
+.mt-media {
+    margin-top: 15px;
+}
+.mt-media:first-child {
+    margin-top: 0;
+}
+.mt-media,
+.mt-media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.mt-media-body {
+    width: 10000px;
+}
+.mt-media-object {
+    display: block;
+}
+.mt-media-object.img-thumbnail {
+    max-width: none;
+}
+.mt-media-right,
+.mt-media > .pull-right {
+    padding-left: 10px;
+}
+.mt-media-left,
+.mt-media > .pull-left {
+    padding-right: 10px;
+}
+.mt-media-left,
+.mt-media-right,
+.mt-media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.mt-media-middle {
+    vertical-align: middle;
+}
+.mt-media-bottom {
+    vertical-align: bottom;
+}
+.mt-media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.mt-media-list {
+    padding-left: 0;
+    list-style: none;
+}
+.mt-feature-list
+{
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    background: #fff;
+}
+.mt-feature-list-img
+{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+}
+.mt-feature-list-img img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.mt-feature-list-icon
+{
+    line-height: 156px;
+    position: relative;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    border-radius: 50%;
+    background: #414141;
+}
+.mt-feature-list-icon i
+{
+    font-size: 50px;
+
+    color: #fff;
+}
+.mt-feature-list-icon:after
+{
+    position: absolute;
+    bottom: -12px;
+    left: 47px;
+
+    clear: both;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+
+    border-top: 15px solid #414141;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+.mt-feature-title
+{
+    font-size: 18px;
+    margin: 50px 0 40px 0;
+}
+.mt-feature-info
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+.mt-clients-logo
+{
+    display: table;
+    width: 100%;
+}
+.mt-client-item
+{
+    display: table-cell;
+    box-sizing: border-box;
+    width: 200px;
+    height: 85px;
+    padding: 10px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+.mt-client-item img
+{
+    max-width: 100%;
+}
+.mt-team-member
+{
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-bottom: 50px;
+    padding: 0 30px;
+    text-align: left;
+}
+.mt-team-member .mt-thumb
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.mt-team-member .mt-thumb:before
+{
+    position: absolute;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    opacity: 0;
+    border-radius: 4px;
+    background: rgba(255, 73, 73, .8);
+}
+.mt-team-member .mt-thumb .mt-team-info
+{
+    font-size: 14px;
+    line-height: 25px;
+    position: absolute;
+    z-index: 11;
+    top: 60%;
+    padding: 8%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    opacity: 0;
+    color: #fff;
+}
+.mt-team-member .mt-thumb img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.mt-team-member:hover .mt-thumb:before
+{
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    opacity: 1;
+}
+.mt-team-member:hover .mt-thumb .mt-team-info
+{
+    top: 10%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    opacity: 1;
+}
+.mt-team-member .mt-team-title
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.mt-team-member .mt-team-designation
+{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.mt-team-member .mt-team-socail-links a
+{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #757575;
+}
+.mt-team-member .mt-team-socail-links a:hover
+{
+    color: #ff4949;
+}
+.mt-testimonial-wrapper .mt-testimonial-shadow
+{
+    position: relative;
+    padding: 30px 40px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+}
+.mt-testimonial-wrapper .mt-testimonial-shadow i
+{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #e5e5e5;
+}
+.mt-testimonial-wrapper .mt-thumb
+{
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.mt-testimonial-wrapper .mt-thumb img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.mt-testimonial-wrapper .media-body
+{
+    font-style: italic;
+    color: #414141;
+}
+.mt-testimonial-wrapper .item
+{
+    padding: 30px;
+}
+.mt-testimonial-wrapper .mt-testimonial-author-wrapper
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: -20px;
+    padding: 0 40px;
+    text-align: center;
+    letter-spacing: .04em;
+}
+.mt-testimonial-wrapper .mt-testimonial-author-wrapper .mt-testimonial-author
+{
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+}
+.mt-testimonial-wrapper .mt-testimonial-primary
+{
+    border-left: 2px solid #ff4949;
+}
+.mt-testimonial-wrapper .mt-testimonial-primary .mt-testimonial-author
+{
+    background: #ff4949;
+}
+.mt-testimonial-wrapper .mt-testimonial-dark
+{
+    border-left: 2px solid #414141;
+}
+.mt-testimonial-wrapper .mt-testimonial-dark .mt-testimonial-author
+{
+    background: #414141;
+}
+.mt-testimonial-wrapper.owl-theme .owl-nav.disabled + .owl-dots
+{
+    margin-top: 60px;
+}
+.mt-testimonial-wrapper.owl-theme .owl-dots .owl-dot.active span,
+.mt-testimonial-wrapper.owl-theme .owl-dots .owl-dot:hover span
+{
+    background: #adadad;
+}
+.mt-progress {
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #e4e4e4;
+    box-shadow: none;
+
+}
+.mt-progress-bar {
+    padding: 0 15px;
+    text-align: left;
+    line-height: 30px;
+    color: #fff;
+    background: #333;
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    transition: width .6s ease;
+    border-radius: 4px 0 0 4px;
+}
+.mt-progress-title {
+    float: left;
+}
+.mt-progress-value {
+    float: right;
+}

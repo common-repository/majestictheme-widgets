@@ -1,0 +1,59 @@
+.mtw-field-title {
+    margin: 0;
+    padding: 15px;
+    font-size: .8em;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+.mtw-field-group {
+    margin: 1em 0;
+}
+
+.mtw-field-group-header {
+    color: #23282d;
+    background-color: #f5f5f5;
+}
+
+.mtw-field-group-header > .ui-icon {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mtw-field-group-header,
+.mtw-field-group-inner {
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.mtw-field-group-header:hover,
+.mtw-field-group-header:focus {
+    border-color: #aaa;
+}
+
+.mtw-field-group-inner {
+    padding: 1px 15px 0;
+    border-top: 0;
+    background-color: #fff;
+}
+
+.mtw-image-field-label {
+    margin-bottom: 0;
+}
+
+.mtw-group-field-wrapper,
+.mtw-field-group-actions {
+    margin-bottom: 1em;
+}
+
+#mtw-field-group-template {
+    display: none;
+}
+
+.mtw-field-wrap + .wp-picker-container {
+    margin-top: -5px;
+}
